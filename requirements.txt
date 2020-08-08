@@ -1,0 +1,14 @@
+asgiref==3.2.10
+chardet==3.0.4
+Django==3.1
+pathlib==1.0.1
+pdfminer.six==20200104
+pdfplumber==0.5.22
+Pillow==7.2.0
+pycryptodome==3.9.8
+PyPDF2==1.26.0
+pytz==2020.1
+sortedcontainers==2.2.2
+sqlparse==0.3.1
+unicodecsv==0.14.1
+Wand==0.6.2

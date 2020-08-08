@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+	<div class="col-10 mr-auto ml-auto mb-5">
+ 		<form method="POST" action="" enctype="multipart/form-data">{% csrf_token %}
+  			 <div class="form-group">
+                <label for="exampleFormControlFile1">First pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf1">
+                <hr>
+
+                <label for="exampleFormControlFile1">Second pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf2">
+                <hr>
+
+                <label for="exampleFormControlFile1">Third pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf3">
+                <hr>
+
+                <label for="exampleFormControlFile1">Fourth pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf4">
+                <hr>
+
+                <label for="exampleFormControlFile1">Fifth pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf5">
+                <hr>
+
+                <label for="exampleFormControlFile1">Sixth pdf:</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1" name="pdf6">
+
+                <hr>
+                <h3>Final Pdf name:</h3>
+                <input type="text" class="form-control" placeholder="Final Pdf name" name="pdf_name">
+  			    
+            </div>
+            <button type="submit" style="background-color: #00008B; color: #00FFFF" class="btn btn-outline-primary mt-3 mb-5">Merge PDFs & Download</button>
+		</form>
+	</div>
+
+{% endblock content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
