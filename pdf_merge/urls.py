@@ -21,7 +21,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pdf_marge/', include("pdf.urls", namespace="pdf"))
+    path('pdf_merge/', include("pdf.urls", namespace="pdf"))
 ]
 
 

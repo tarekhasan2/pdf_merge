@@ -8,7 +8,7 @@ from . import views
 app_name = "pdf"
 
 urlpatterns = [
-	path('', views.pdf_marge, name="pdf_marge"),
+	path('', views.pdf_merge, name="pdf_merge"),
 
 ]
 

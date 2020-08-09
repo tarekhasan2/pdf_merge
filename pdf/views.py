@@ -8,7 +8,7 @@ import pdfplumber
 
 
 
-def pdf_marge(request):
+def pdf_merge(request):
 	if request.method == "POST":
 		try:
 			pdf_no_1 	= request.FILES['pdf1']
@@ -71,7 +71,7 @@ def pdf_marge(request):
 		
 	context = {}
 
-	return render (request, "pdf_marge.html", context)
+	return render (request, "pdf_merge.html", context)
 	
 
 

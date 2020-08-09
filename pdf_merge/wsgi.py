@@ -1,5 +1,5 @@
 """
-WSGI config for pdf_marge project.
+WSGI config for pdf_merge project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pdf_marge.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pdf_merge.settings')
 
 application = get_wsgi_application()
